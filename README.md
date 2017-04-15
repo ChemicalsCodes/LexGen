@@ -65,5 +65,5 @@ string MyLogic = File.ReadAllText(@"MyLogic.txt");
 
 string MyNamespaceName = "MyLexer.Basic";  //e.g.
 
-string MyLexer = Generator.GenerateCS4(MyLogic, MyNamespaceName);
+string MyLexer = Generator.GenerateLexer(MyLogic, MyNamespaceName);
 
