@@ -16,6 +16,8 @@ Also, if you have your own set of regexes based on some spec I would be more the
 to test them and add to the library if working fine..
 
 
+
+
 Usage :
 ___________________________________________________________________________________________________________________________
 Create an input using following rules : 
