@@ -38,9 +38,13 @@ An example of such a file
 skipped;
 
 skipped, @"\s|\u000d\u000a|\u000d|\u000a|\u0085|\u2028|\p{Zs}|\u0009|\u000b|\u000c";
+
 comment, @"(//(.*?)(\r?\n|$))|(/\*([^*]*\*)*?/)";
+
 directive, @"(#region(.*?)(\r?\n|$))|(#endregion)";
+
 identifier, @"[a-z_]*";
+
 
 identifier, keyword, @"abstract|as|base|bool|break";
 ___________________________________________________________________________________________________________________________
@@ -48,9 +52,11 @@ ________________________________________________________________________________
 using LexerGenerator;
 
 //generate using existing logic
+
 string CSLexer = Generator.GenerateCS4();
 
 //or using your own logic, that's the whole point after all
+
 string MyLogic = File.ReadAllText(@"MyLogic.txt");
 string MyNamespaceName = "MyLexer.Basic";                       //e.g.
 string MyLexer = Generator.GenerateCS4(MyLogic, MyNamespaceName);
