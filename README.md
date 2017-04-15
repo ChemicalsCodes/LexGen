@@ -20,12 +20,14 @@ Usage :
 ___________________________________________________________________________________________________________________________
 Create an input using following rules : 
 
-//Grammer File syntax:
 \<role>;                         //remove tokens with given role
+
 \<role>, \<pattern>;		//add tokens with a given role matching a given pattern
+
 \<role>, \<role>, \<pattern>;	//change tokens with a given role matching a given pattern
 		
 \<role>                          //a valid C# identifier
+
 \<pattern>                       //a valid C# verbatim string representing a valid C# regex with a SingleLine option
                                             
                                 //whitespaces are ignored.
@@ -58,6 +60,8 @@ string CSLexer = Generator.GenerateCS4();
 //or using your own logic, that's the whole point after all
 
 string MyLogic = File.ReadAllText(@"MyLogic.txt");
-string MyNamespaceName = "MyLexer.Basic";                       //e.g.
+
+string MyNamespaceName = "MyLexer.Basic";  //e.g.
+
 string MyLexer = Generator.GenerateCS4(MyLogic, MyNamespaceName);
 
