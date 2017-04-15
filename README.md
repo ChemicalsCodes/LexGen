@@ -30,9 +30,11 @@ Create an input using following rules :
 
 \<pattern>                       //a valid C# verbatim string representing a valid C# regex with a SingleLine option
                                             
-                                //whitespaces are ignored.
-                                //"," is delimiter
-                                //";" is lineend
+//whitespaces are ignored.
+
+//"," is delimiter
+
+//";" is lineend
 ___________________________________________________________________________________________________________________________
 An example of such a file 
 (it can be just a string realy, but is kind of inconvenient) :
@@ -50,18 +52,18 @@ identifier, @"[a-z_]*";
 
 identifier, keyword, @"abstract|as|base|bool|break";
 ___________________________________________________________________________________________________________________________
-<code>
+
 using LexerGenerator;
-</code><code>
+
 //generate using existing logic
-</code><code>
+
 string CSLexer = Generator.GenerateCS4();
-</code><code>
+
 //or using your own logic, that's the whole point after all
-</code><code>
+
 string MyLogic = File.ReadAllText(@"MyLogic.txt");
-</code><code>
+
 string MyNamespaceName = "MyLexer.Basic";  //e.g.
-</code><code>
+
 string MyLexer = Generator.GenerateCS4(MyLogic, MyNamespaceName);
-</code>
+
