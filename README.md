@@ -37,7 +37,7 @@ Create an input using following rules :
 //";" is lineend
 ___________________________________________________________________________________________________________________________
 An example of such a file 
-(it can be just a string realy, but is kind of inconvenient) :
+(it can be just a string realy, but is kind of inconvenient to write that in a hardcoded string) :
 
 skipped;
 
