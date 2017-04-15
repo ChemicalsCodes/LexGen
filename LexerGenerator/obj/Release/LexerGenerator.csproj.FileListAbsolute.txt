@@ -1,0 +1,5 @@
+C:\Documents and Settings\smilysk\Desktop\SneakSense\@ChemicalWarfare\LexerGenerator\bin\Release\LexerGenerator.dll
+C:\Documents and Settings\smilysk\Desktop\SneakSense\@ChemicalWarfare\LexerGenerator\bin\Release\LexerGenerator.pdb
+C:\Documents and Settings\smilysk\Desktop\SneakSense\@ChemicalWarfare\LexerGenerator\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\smilysk\Desktop\SneakSense\@ChemicalWarfare\LexerGenerator\obj\Release\LexerGenerator.dll
+C:\Documents and Settings\smilysk\Desktop\SneakSense\@ChemicalWarfare\LexerGenerator\obj\Release\LexerGenerator.pdb
