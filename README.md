@@ -52,16 +52,16 @@ identifier, keyword, @"abstract|as|base|bool|break";
 ___________________________________________________________________________________________________________________________
 <code>
 using LexerGenerator;
-
+<code>
 //generate using existing logic
-
+<code>
 string CSLexer = Generator.GenerateCS4();
-
+<code>
 //or using your own logic, that's the whole point after all
-
+<code>
 string MyLogic = File.ReadAllText(@"MyLogic.txt");
-
+<code>
 string MyNamespaceName = "MyLexer.Basic";  //e.g.
-
+<code>
 string MyLexer = Generator.GenerateCS4(MyLogic, MyNamespaceName);
 </code>
